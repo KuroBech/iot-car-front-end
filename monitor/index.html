@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Control de Dirección</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Estilos adicionales */
+    body {
+      padding-top: 60px;
+    }
+    .footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 60px;
+      background-color: #f5f5f5;
+      text-align: center;
+      line-height: 60px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="/assets/img/logo.png" alt="Logo" height="30">
+    </a>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="container text-center">
+    <h1>Monitoreo</h1>
+    <div class="row justify-content-center mt-3">
+      <div class="col-12 col-md-6">
+        <span id="mensaje">
+            Respuesta: Esperando....
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      Derechos Reservados OEMC &copy; 2024
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (opcional si no se usan componentes que requieren JS) -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
